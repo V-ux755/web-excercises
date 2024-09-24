@@ -8,3 +8,33 @@ section{
     margin: 25px auto;
     border: 10px solid blue;
 }
+
+section:first-of-type{
+    background-image: linear-gradient(90deg, green 33.3%, white 33.3%, white 66.6%, green 66.6%); 
+}
+
+section:nth-of-type(2){
+    background-image: radial-gradient(circle, red 25%, white 25%);
+}
+
+section:nth-of-type(3){
+    background-image: linear-gradient(-180deg, red 30%, blue 35%, blue 60%, green 50% );
+
+}
+
+section:nth-of-type(4){
+    background-image: linear-gradient(180deg, red 35%, white 35%, white 40%, blue 40%, blue 65%, white 65%, white 70%, green 70%);
+}
+
+section:nth-of-type(5){
+    background-image: linear-gradient(90deg, blue 33.3%, white 33.3%, white 66.6%, red 66.6%); 
+}
+
+section:nth-of-type(6){
+    background-image: linear-gradient(90deg, black 33.3%, yellow 33.3%, yellow 66.6%, red 66.6%); 
+}
+
+section:nth-of-type(7){
+    background-image: linear-gradient(180deg, black 33.3%, red 33.3%, red 66.6%, yellow 66.6%); 
+}
+
